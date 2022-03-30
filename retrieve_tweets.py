@@ -4,7 +4,7 @@ import datetime
 import time
 import json
 
-client = tweepy.Client(bearer_token='AAAAAAAAAAAAAAAAAAAAAGVSaAEAAAAAWThCSC%2BRmpY8paAGsu5fav%2FzqxE%3DVlhxBhzyQnoncRIfQLOUFBPrmwaiNKoeqPczYG97Me0GxwS9BB')
+client = tweepy.Client(bearer_token='YOUR TOKEN')
 producer = KafkaProducer()
 producer.flush()
 
