@@ -24,7 +24,7 @@ while True:
     for i,tweet in enumerate(tweets.data):
         if tweet.lang == 'en':
             tweet = json.dumps(tweet.text).encode('utf-8')
-            producer.send('trump', tweet)
+            producer.send('covid', tweet)
         print(f'Tweet {i} was successfully sent to kafka')
     
 
