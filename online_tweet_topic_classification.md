@@ -190,7 +190,7 @@ while True:
 ```
 
 
-![png](online_tweet_topic_classification_files/online_tweet_topic_classification_14_0.png)
+![png](img_notebook/word_cloud.png)
 
 
 # PCA
@@ -311,7 +311,7 @@ sns.scatterplot(x=pca_data.FirstComponent,y=pca_data.SecondComponent,label='Embe
 
 
 
-![png](online_tweet_topic_classification_files/online_tweet_topic_classification_25_1.png)
+![png](img_notebook/pca2D.png)
 
 
 ## 3D PCA
@@ -657,7 +657,7 @@ sns.scatterplot(x=pca_2d_data.FirstComponent,y=pca_2d_data.SecondComponent,
 
 
 
-![png](online_tweet_topic_classification_files/online_tweet_topic_classification_41_1.png)
+![png](img_notebook/pca2D.png)
 
 
 Then in 3D.
