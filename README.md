@@ -733,3 +733,95 @@ for tweet in consumer:
             pass
 
 ```
+
+```python
+df_predictions
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>tweet</th>
+      <th>prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>A federal program that reimburses providers ha...</td>
+      <td>vaccines</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>RT @SaminaSays: Shabash for the health cards i...</td>
+      <td>deaths</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>RT @Jim_Jordan: Almost $250 billion in #COVID ...</td>
+      <td>mask</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>RT @TheChefsGardens: Do you think Biden suppor...</td>
+      <td>years</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>RT @poorcanuck: 41,834 DEAD 3.9 Million Injure...</td>
+      <td>vaccines</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>123</th>
+      <td>RT @SaminaSays: Shabash for the health cards i...</td>
+      <td>deaths</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>Got my second Moderna  Covid booster shot yest...</td>
+      <td>years</td>
+    </tr>
+    <tr>
+      <th>125</th>
+      <td>RT @nhannahjones: A study to demonstrate what ...</td>
+      <td>mask</td>
+    </tr>
+    <tr>
+      <th>126</th>
+      <td>Ivermectin Does Not Reduce Risk of Covid Hospi...</td>
+      <td>vaccines</td>
+    </tr>
+    <tr>
+      <th>127</th>
+      <td>RT @JujuliaGrace: COVID is everywhere. Wear ma...</td>
+      <td>deaths</td>
+    </tr>
+  </tbody>
+</table>
+<p>128 rows × 2 columns</p>
+</div>
+
+
